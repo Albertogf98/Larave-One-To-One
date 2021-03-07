@@ -1,0 +1,9 @@
+Iniciar sesión:
+ - El usuario tendrá un rol (enum) que puede ser:
+    alumno o profesor, en el caso de que sea profesor
+    podrá ver las notas de todos los alumnos,
+    en el caso de que sea alumno podrá ver solo sus notas.
+
+    Profesor -> podrá: añadir notas, eliminarlas y actualizarlas.
+
+ - Una nota tendrá los siguientes atributos: id, subject , value, student_id, teacher_id
